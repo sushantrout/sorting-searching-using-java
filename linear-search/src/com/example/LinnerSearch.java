@@ -13,8 +13,8 @@ public class LinnerSearch {
 	public static Scanner SC = new Scanner(System.in);
 
 	public static void main(String[] args) {
-		List<Integer> asList = Arrays.asList(1, 12, 3, 14, 5, 16, 7, 8, 9, 10);
-		int position = linearSearch(asList);
+		List<Integer> inputList = Arrays.asList(1, 12, 3, 14, 5, 16, 7, 8, 9, 10);
+		int position = linearSearch(inputList);
 		String foundMessage = position != -1 ? "Yes the search element found  at position " + position + "."
 				: "No the given number is not present in the list.";
 
