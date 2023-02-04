@@ -1,6 +1,7 @@
 /.metadata/
-linear-search/.classpath
-linear-search/.project
+.classpath
+.project
 *.prefs
 binary-search/.classpath
 binary-search/.project
+bubble-sort/.classpath
