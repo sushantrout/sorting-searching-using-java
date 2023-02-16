@@ -41,7 +41,7 @@ public class BinarySearch {
 		} else if (inputList.get(mid) < searchElement) {
 			return binarySearch(inputList, mid + 1, lastIndex, searchElement);
 		} else if(inputList.get(mid) > searchElement){
-			return binarySearch(inputList, startIndex, mid + 1, searchElement);
+			return binarySearch(inputList, startIndex, mid -1, searchElement);
 		} else {
 			return -1;			
 		}
